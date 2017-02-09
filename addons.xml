@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.radio.roks" name="Radio Roks online" version="0.1.0" provider-name="Eugene Kuzin">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="radioroks.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <license>GNU General Public License, v3</license>
+        <summary lang="en">Online audio streams by Radio ROKS Ukraine (http://radioroks.ua)</summary>
+        <summary lang="ru">Онлайн-радиоканалы Радио РОКС Украина (http://radioroks.ua)</summary>
+        <summary lang="uk">Онлайн-радіоканали Радіо РОКС Україна (http://radioroks.ua)</summary>
+        <description lang="en">This is the unofficial Kodi add-on which adds online radio channels by Radio ROKS Ukraine to your player.</description>
+        <description lang="ru">Неофициальный add-on, добавляющий онлайн-каналы Радио РОКС Украина в ваш плеер.</description>
+        <description lang="uk">Неофиційний add-on, що добавляє онлайн-канали Радіо РОКС Україна у ваш плеєр.</description>
+        <disclaimer lang="en">The author of this add-on is not affiliated with Radio ROKS Ukraine and not responsible for any audio and video content provided.</disclaimer>
+        <disclaimer lang="ru">Автор данного дополнения никак не связан с Радио РОКС Украина и не несет ответственности за предоставляемый контент.</disclaimer>
+        <disclaimer lang="uk">Автор цього доповнення ніяк не пов'язаний з Радіо РОКС Україна та не несе відповідальності за контент, що надається.</disclaimer>
+        <email>kuzin2006@gmail.com</email>
+        <website>http://kodi-roks.kuzin.kiev.ua/</website>
+        <platform>all</platform>
+        <language>en ru uk</language>
+        <source>https://github.com/kuzin2006/plugin.audio.radio.roks</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <!--screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot-->
+        </assets>
+        <news>v0.1.0 (2017-02-08) - first release</news>
+    </extension>
+</addon>
+
+<addon
+  id="repository.kuzin2006"
+  name="kuzin2006 Add-ons"
+  version="0.0.1"
+  provider-name="EUgene Kuzin">
+  <requires>
+    <import addon="xbmc.addon"
+            version="16.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository"
+             name="Unofficial kuzin2006's Add-on Repository">
+    <info compressed="true">http://raw.github.com/kuzin2006/kodi_repo/addons.xml</info>
+    <checksum>http://raw.github.com/kuzin2006/kodi_repo/addons.xml.md5</checksum>
+    <datadir zip="true">http://raw.github.com/kuzin2006/kodi_repo/repository.kuzin2006</datadir>
+    <hashes>false</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons from kuzin2006's repository</summary>
+    <summary lang="ru">Неофициальный репозиторий kuzin2006</summary>
+    <description lang="en">Download and install add-ons from the unofficial kuzin2006's addon repository.</description>
+    <description lang="ru">Неофициальный репозиторий дополнений kuzin2006</description>
+    <disclaimer lang="en">Disclaimer</disclaimer>
+    <disclaimer lang="ru">RU Disclaimer</disclaimer>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>
+</addons>
