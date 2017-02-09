@@ -10,14 +10,14 @@
     <extension point="xbmc.addon.metadata">
         <license>GNU General Public License, v3</license>
         <summary lang="en">Online audio streams by Radio ROKS Ukraine (http://radioroks.ua)</summary>
-        <summary lang="ru">Онлайн-радиоканалы Радио РОКС Украина (http://radioroks.ua)</summary>
-        <summary lang="uk">Онлайн-радіоканали Радіо РОКС Україна (http://radioroks.ua)</summary>
+        <summary lang="ru">РћРЅР»Р°Р№РЅ-СЂР°РґРёРѕРєР°РЅР°Р»С‹ Р Р°РґРёРѕ Р РћРљРЎ РЈРєСЂР°РёРЅР° (http://radioroks.ua)</summary>
+        <summary lang="uk">РћРЅР»Р°Р№РЅ-СЂР°РґС–РѕРєР°РЅР°Р»Рё Р Р°РґС–Рѕ Р РћРљРЎ РЈРєСЂР°С—РЅР° (http://radioroks.ua)</summary>
         <description lang="en">This is the unofficial Kodi add-on which adds online radio channels by Radio ROKS Ukraine to your player.</description>
-        <description lang="ru">Неофициальный add-on, добавляющий онлайн-каналы Радио РОКС Украина в ваш плеер.</description>
-        <description lang="uk">Неофиційний add-on, що добавляє онлайн-канали Радіо РОКС Україна у ваш плеєр.</description>
+        <description lang="ru">РќРµРѕС„РёС†РёР°Р»СЊРЅС‹Р№ add-on, РґРѕР±Р°РІР»СЏСЋС‰РёР№ РѕРЅР»Р°Р№РЅ-РєР°РЅР°Р»С‹ Р Р°РґРёРѕ Р РћРљРЎ РЈРєСЂР°РёРЅР° РІ РІР°С€ РїР»РµРµСЂ.</description>
+        <description lang="uk">РќРµРѕС„РёС†С–Р№РЅРёР№ add-on, С‰Рѕ РґРѕР±Р°РІР»СЏС” РѕРЅР»Р°Р№РЅ-РєР°РЅР°Р»Рё Р Р°РґС–Рѕ Р РћРљРЎ РЈРєСЂР°С—РЅР° Сѓ РІР°С€ РїР»РµС”СЂ.</description>
         <disclaimer lang="en">The author of this add-on is not affiliated with Radio ROKS Ukraine and not responsible for any audio and video content provided.</disclaimer>
-        <disclaimer lang="ru">Автор данного дополнения никак не связан с Радио РОКС Украина и не несет ответственности за предоставляемый контент.</disclaimer>
-        <disclaimer lang="uk">Автор цього доповнення ніяк не пов'язаний з Радіо РОКС Україна та не несе відповідальності за контент, що надається.</disclaimer>
+        <disclaimer lang="ru">РђРІС‚РѕСЂ РґР°РЅРЅРѕРіРѕ РґРѕРїРѕР»РЅРµРЅРёСЏ РЅРёРєР°Рє РЅРµ СЃРІСЏР·Р°РЅ СЃ Р Р°РґРёРѕ Р РћРљРЎ РЈРєСЂР°РёРЅР° Рё РЅРµ РЅРµСЃРµС‚ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚Рё Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјС‹Р№ РєРѕРЅС‚РµРЅС‚.</disclaimer>
+        <disclaimer lang="uk">РђРІС‚РѕСЂ С†СЊРѕРіРѕ РґРѕРїРѕРІРЅРµРЅРЅСЏ РЅС–СЏРє РЅРµ РїРѕРІ'СЏР·Р°РЅРёР№ Р· Р Р°РґС–Рѕ Р РћРљРЎ РЈРєСЂР°С—РЅР° С‚Р° РЅРµ РЅРµСЃРµ РІС–РґРїРѕРІС–РґР°Р»СЊРЅРѕСЃС‚С– Р·Р° РєРѕРЅС‚РµРЅС‚, С‰Рѕ РЅР°РґР°С”С‚СЊСЃСЏ.</disclaimer>
         <email>kuzin2006@gmail.com</email>
         <website>http://kodi-roks.kuzin.kiev.ua/</website>
         <platform>all</platform>
@@ -38,24 +38,25 @@
 <addon
   id="repository.kuzin2006"
   name="kuzin2006 Add-ons"
-  version="0.0.1"
-  provider-name="EUgene Kuzin">
+  version="0.0.2"
+  provider-name="Eugene Kuzin">
   <requires>
     <import addon="xbmc.addon"
             version="16.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository"
              name="Unofficial kuzin2006's Add-on Repository">
-    <info compressed="true">http://raw.github.com/kuzin2006/kodi_repo/addons.xml</info>
-    <checksum>http://raw.github.com/kuzin2006/kodi_repo/addons.xml.md5</checksum>
-    <datadir zip="true">http://raw.github.com/kuzin2006/kodi_repo/repository.kuzin2006</datadir>
+    <info compressed="true">https://raw.githubusercontent.com/kuzin2006/kodi_repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/kuzin2006/kodi_repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/kuzin2006/kodi_repo/raw/master/addons/</datadir>
     <hashes>false</hashes>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <license>GNU General Public License, v3</license>
     <summary lang="en">Install Add-ons from kuzin2006's repository</summary>
-    <summary lang="ru">Неофициальный репозиторий kuzin2006</summary>
+    <summary lang="ru">РќРµРѕС„РёС†РёР°Р»СЊРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ kuzin2006</summary>
     <description lang="en">Download and install add-ons from the unofficial kuzin2006's addon repository.</description>
-    <description lang="ru">Неофициальный репозиторий дополнений kuzin2006</description>
+    <description lang="ru">РќРµРѕС„РёС†РёР°Р»СЊРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ РґРѕРїРѕР»РЅРµРЅРёР№ kuzin2006</description>
     <disclaimer lang="en">Disclaimer</disclaimer>
     <disclaimer lang="ru">RU Disclaimer</disclaimer>
     <platform>all</platform>
